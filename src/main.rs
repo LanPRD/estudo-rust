@@ -1,12 +1,15 @@
-mod basico;
-mod condicao_if;
-mod entrada_de_usuario;
+mod conceitos_comuns;
 mod jogo_de_advinhacao;
 
 fn main() {
     println!("\nComeçando o programa!\n");
-    // basico::main();
-    // condicao_if::main();
-    jogo_de_advinhacao::main();
-    // entrada_de_usuario::main();
+
+    // println!("\nJogo de advinhação!\n");
+    // jogo_de_advinhacao::main();
+
+    println!("\nVariáveis e mutabilidade\n");
+    conceitos_comuns::variaveis_e_mutabilidade::main();
+
+    println!("\nTipos de dados\n");
+    conceitos_comuns::tipos_de_dados::main();
 }

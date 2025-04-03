@@ -4,8 +4,6 @@ use rand::Rng;
 use std::{cmp::Ordering, io};
 
 pub fn main() {
-    println!("\nBem-vindo ao Jogo da Adivinhação!");
-
     // Gera um número aleatório entre 1 e 100 (inclusive)
     let secret_number: i8 = rand::rng().random_range(1..=100);
 
