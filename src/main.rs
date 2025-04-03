@@ -12,4 +12,7 @@ fn main() {
 
     println!("\nTipos de dados\n");
     conceitos_comuns::tipos_de_dados::main();
+
+    println!("\nFunções\n");
+    conceitos_comuns::funcoes::main();
 }
