@@ -15,4 +15,7 @@ fn main() {
 
     println!("\nFunções\n");
     conceitos_comuns::funcoes::main();
+
+    println!("\nControle de fluxo\n");
+    conceitos_comuns::controle_de_fluxo::main();
 }
