@@ -1,5 +1,6 @@
 mod conceitos_comuns;
 mod jogo_de_advinhacao;
+mod ownership;
 
 fn main() {
     println!("\nComeçando o programa!\n");
@@ -18,4 +19,10 @@ fn main() {
 
     println!("\nControle de fluxo\n");
     conceitos_comuns::controle_de_fluxo::main();
+
+    println!("\nOwnership\n");
+    ownership::memoria::main();
+
+    println!("\nOwnership\n");
+    ownership::o_que_e::main();
 }

@@ -1,4 +1,4 @@
-fn main() {
+pub fn main() {
     ownership_basico();
     ownership_com_funcao();
     clone_vs_move();
