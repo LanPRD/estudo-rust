@@ -25,4 +25,7 @@ fn main() {
 
     println!("\nOwnership\n");
     ownership::o_que_e::main();
+
+    ownership::referencias_e_borrowing::main();
+    ownership::slice::main();
 }
