@@ -1,6 +1,7 @@
 mod conceitos_comuns;
 mod jogo_de_advinhacao;
 mod ownership;
+mod structs;
 
 fn main() {
     println!("\nComeçando o programa!\n");
@@ -28,4 +29,13 @@ fn main() {
 
     ownership::referencias_e_borrowing::main();
     ownership::slice::main();
+
+    println!("\nStructs\n");
+    structs::definindo_structs::main();
+
+    println!("\nStructs - Exemplo Retângulo\n");
+    structs::exemplo_retangulo::main();
+
+    println!("\nMétodos\n");
+    structs::metodos::main();
 }
