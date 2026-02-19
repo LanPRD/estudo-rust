@@ -15,6 +15,9 @@ Documentação pessoal baseada no livro oficial do Rust, com foco em quem vem do
 | 07  | [Slices](./07-slices.md)                                     | `&str` vs `String`, slices de arrays                 |
 | 08  | [Structs](./08-structs.md)                                   | Definição, tuple structs, `#[derive(Debug)]`, `dbg!` |
 | 09  | [Métodos](./09-metodos.md)                                   | `impl`, `&self`, associated functions, construtores  |
+| 10  | [Enums](./10-enums.md)                                       | Variantes, dados associados                          |
+| 11  | [Option enum](./11-enum-option.md)                           | `Option<T>`, sem null                                |
+| 12  | [if let](./12-if-let.md)                                     | `if let`, `let...else`, controle conciso             |
 
 ## Mapa Mental: Conceitos Conectados
 
@@ -49,6 +52,16 @@ Documentação pessoal baseada no livro oficial do Rust, com foco em quem vem do
                     ▼
                ┌─────────┐
                │ Métodos │
+               └────┬────┘
+                    │
+                    ▼
+               ┌─────────┐
+               │  Enums  │ ◄── Option<T> substitui null!
+               └────┬────┘
+                    │
+                    ▼
+               ┌─────────┐
+               │ if let  │ ◄── Controle de fluxo conciso
                └─────────┘
 ```
 

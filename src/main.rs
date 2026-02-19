@@ -1,4 +1,5 @@
 mod conceitos_comuns;
+mod enums;
 mod jogo_de_advinhacao;
 mod ownership;
 mod structs;
@@ -38,4 +39,13 @@ fn main() {
 
     println!("\nMétodos\n");
     structs::metodos::main();
+
+    println!("\nEnums\n");
+    enums::definindo_enums::main();
+
+    println!("\nOption<T>\n");
+    enums::option_enum::main();
+
+    println!("\nif let e let...else\n");
+    enums::if_let::main();
 }

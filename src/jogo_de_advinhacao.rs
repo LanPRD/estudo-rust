@@ -1,6 +1,6 @@
 // Importa a trait Rng (para gerar números aleatórios)
 // e outras coisas padrão: comparação (Ordering) e entrada (io)
-use rand::Rng;
+use rand::RngExt;
 use std::{cmp::Ordering, io};
 
 pub fn _main() {
